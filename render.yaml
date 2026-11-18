@@ -20,11 +20,11 @@ services:
       - key: PAPER_CHANNEL
         value: default
       - key: MEMORY
-        value: 512M
+        value: 320M
       - key: INIT_MEMORY
-        value: 256M
+        value: 128M
       - key: MAX_MEMORY
-        value: 512M
+        value: 320M
       - key: JVM_OPTS
         value: "-XX:+UseSerialGC -XX:ActiveProcessorCount=1 -Xss192k -XX:MaxMetaspaceSize=96M -XX:MaxDirectMemorySize=48M -XX:ReservedCodeCacheSize=12M"
       - key: MALLOC_ARENA_MAX
@@ -48,7 +48,7 @@ services:
       - key: PVP
         value: "true"
       - key: MAX_PLAYERS
-        value: "8"
+        value: "3"
       - key: VIEW_DISTANCE
         value: "4"
       - key: SPAWN_PROTECTION
